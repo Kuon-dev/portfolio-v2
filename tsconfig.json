@@ -17,7 +17,8 @@
     "outDir": "tmp",
     "noEmit": true,
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "~shadcn/*": ["./src/components/ui/*"]
     }
   },
   "files": ["./.eslintrc.cjs"],
